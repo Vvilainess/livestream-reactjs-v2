@@ -144,7 +144,7 @@ const StreamList = ({ schedules, handleDelete, handleStop, socket }) => {
                                     <div className="bg-purple-900/30 border border-purple-700/50 rounded-md p-3 text-xs text-purple-300">
                                         <p className="flex items-center">
                                             <ListChecks size={14} className="mr-2 animate-pulse" />
-                                            Video đang chờ để được tải xuống. Sẽ tự động bắt đầu khi có slot.
+                                            Video đang chờ để được tải xuống.
                                         </p>
                                     </div>
                                 )}

@@ -58,7 +58,7 @@ const StreamList = ({ schedules, handleDelete, handleStop, socket }) => {
                     onClick={() => { setShowDebug(!showDebug); if (!showDebug) handleGetStats(); }}
                     className="text-xs px-3 py-1 bg-gray-700 hover:bg-gray-600 text-gray-300 rounded transition"
                 >
-                    {showDebug ? 'Ẩn Debug' : 'Hiển thị Debug'}
+                    {showDebug ? 'Ẩn' : 'Debug'}
                 </button>
             </div>
 
@@ -170,3 +170,4 @@ const StreamList = ({ schedules, handleDelete, handleStop, socket }) => {
 };
 
 export default StreamList;
+
